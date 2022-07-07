@@ -16,8 +16,8 @@ img {
 
   flex-direction: row;
   width: 17%;
-  margin-left: 82%;
-  justify-content: flex-end;
+  margin-left: 2%;
+  justify-content: flex-start;
   margin-top: 1%;
   height: 35px;
   flex-shrink: 0;
@@ -42,13 +42,14 @@ a {
   color:rgb(239, 239, 239);
   margin-top: 8px;
   text-decoration: none;
+  margin-left: auto;
   
 }
 ul {
   list-style-type: none;
 }
 .search {
-  width: 70%;
+  width: 39%;
   height: 25%;
   max-width: 70%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -56,20 +57,24 @@ ul {
   align-items: center;
   border-radius: 60px;
   padding: 0px 20px;
+  size: 35;
 }
 .search input {
   background: transparent;
   flex: 1;
   border: 0;
   outline: none;
-  padding: 24px 20px;
+  padding: 4px 2px;
   font-size: 20px;
   color: rgb(255, 255, 255);
+  size: auto;
 }
 #input {
   width: auto;
+  size: 35;
 }
 .search button {
+  margin-left: 19px;
   margin-top: 10px;
   border: 0;
   border-radius: 50%;
@@ -82,6 +87,7 @@ ul {
   width: 10%;
   border-radius: 50px;
   margin-top: 0px;
+  margin-left:45px;
 }
  ::placeholder{
         color: rgb(0, 0, 0);
@@ -127,6 +133,7 @@ section button {
   padding: 10px 12px;
   background-color: rgb(245, 190, 190);
   color:rgb(0, 0, 0);
+  margin-inline: 43px;
 }
 ul {
   display: flex;
@@ -223,19 +230,21 @@ footer{
   font-size: 16px;
   border: none; */
   margin-right: 3px;
-  padding: auto;
+  padding:auto;
 } 
 
 .dropdown {
   position: relative;
-  display: inline-block;
+  display: ;
+  margin-right: 2px;
+  margin-left: auto;
 }
 
 .dropdown-content {
   display: none;
   position: absolute;
   background-color: #f1f1f1;
-  min-width: 160px;
+  min-width: 0px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -244,7 +253,7 @@ footer{
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display: flex;
 }
 
 .dropdown-content a:hover {background-image: linear-gradient(#a0bbf1,#c1a6e5);;}
